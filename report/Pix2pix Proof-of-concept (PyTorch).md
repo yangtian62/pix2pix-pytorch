@@ -23,7 +23,7 @@ This report is containing 4 parts:
 
 The data set contains 2196 figures in total, 1097 in training set and 1099 in validation set. Each figure has a dimension of 1200x600, with 3 channels. So actually this data set is labeled. Since my goal is to transfer aerial images to map images, the input data should be the left part, and target is the right part.
 
-![N|Solid](file:///Users/yangtian/Desktop/GAN%20Proj/myCode/maps/train/1.jpg)
+![N|Solid](sample1.jpg)
 
 So the first thing to do is cutting these images into two parts, as inputs and targets. Then in order to speed up the training steep, I resize them to 256x256. 
 
